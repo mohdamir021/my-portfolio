@@ -1,0 +1,10 @@
+{
+	"heading": "Let's connect.",
+	"subtext": "Whether it's a project, a question, or just a chat — reach out.",
+	"email": "amir@example.com",
+	"show_form": true,
+	"socials": [
+		{ "label": "GitHub", "icon": "github", "url": "https://github.com/yourhandle" },
+		{ "label": "LinkedIn", "icon": "linkedin", "url": "https://linkedin.com/in/yourhandle" }
+	]
+}

@@ -1,0 +1,13 @@
+{
+	"bio": [
+		"Web developer based in Malaysia, currently building SaaS at Heyjom.",
+		"I enjoy clean architecture, thoughtful UIs, and the occasional homelab rabbit hole."
+	],
+	"fun_facts": [
+		"Likes and practice 2-hand 2 Yoyos",
+		"Daily driving Debian GNU/Linux",
+    "Bridging tech with daily life"
+	],
+	"avatar": "/images/avatar.jpg",
+	"resume": "/resume.pdf"
+}

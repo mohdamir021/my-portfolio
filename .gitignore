@@ -1,0 +1,45 @@
+# SvelteKit build output
+.svelte-kit/
+build/
+dist/
+
+# Vite
+vite.config.ts.timestamp-*
+
+# Dependencies
+node_modules/
+
+# Environment
+.env
+.env.local
+.env.*.local
+# Keep the example as a reference for teammates
+!.env.example
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Neovim
+.nvim/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+pnpm-debug.log*
+
+# Testing
+/coverage
+/test-results
+/playwright-report
+
+# Adapter outputs (if using adapter-node or adapter-vercel etc)
+.vercel/
+.netlify/

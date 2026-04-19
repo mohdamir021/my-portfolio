@@ -1,0 +1,13 @@
+{
+	"site_title": "Amir — Developer",
+	"name": "Amir",
+	"tagline": "Software Developer",
+	"socials": [
+		{ "label": "GitHub", "icon": "github", "url": "https://github.com/yourhandle" },
+		{ "label": "LinkedIn", "icon": "linkedin", "url": "https://linkedin.com/in/yourhandle" }
+	],
+	"footer": {
+		"copyright": "© 2025 Amir. All rights reserved.",
+		"note": "Built with SvelteKit + ☕"
+	}
+}

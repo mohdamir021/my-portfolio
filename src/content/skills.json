@@ -1,0 +1,25 @@
+{
+	"intro": "Here's what I work with — the tools, stacks, and things I actually care about.",
+	"groups": [
+		{
+			"label": "Frontend",
+			"icon": "monitor",
+			"items": ["Next.js", "SvelteKit", "TypeScript", "Tailwind CSS", "React", "Chakra UI"]
+		},
+		{
+			"label": "Backend",
+			"icon": "server",
+			"items": ["Laravel", "Node.js", "Express", "REST APIs", "MySQL / MariaDB"]
+		},
+		{
+			"label": "DevOps & Tools",
+			"icon": "terminal",
+			"items": ["Debian Linux", "nginx", "Tailscale", "Docker (basics)", "Git"]
+		},
+		{
+			"label": "Currently Exploring",
+			"icon": "cpu",
+			"items": ["Linux Based Systems", "AI/LLM integration", "Socket.io", "TTS / Voice synthesis", "Homelab infra"]
+		}
+	]
+}

@@ -1,0 +1,14 @@
+{
+	"projects": [
+		{
+			"id": "heyjom",
+			"title": "Heyjom Platform",
+			"description": "SaaS platform with multi-tenant architecture, OAuth branding, and custom domain routing.",
+			"stack": ["Next.js", "Laravel", "TypeScript", "MySQL"],
+			"links": { "github": null, "live": "https://heyjom.com" },
+			"image": "/images/projects/heyjom.png",
+			"featured": true,
+			"status": "live"
+		}
+	]
+}

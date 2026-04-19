@@ -1,0 +1,9 @@
+{
+	"greeting": "Hello, World",
+	"name": "Mohamad Amir",
+	"title": "Software Developer",
+	"subtitle": "I build things for the web — clean, fast, and intentional.",
+	"cta": { "label": "View my work", "href": "#projects" },
+	"cta_secondary": { "label": "Get in touch", "href": "#contact" },
+	"prompt": "~/portfolio $"
+}
