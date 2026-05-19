@@ -27,7 +27,7 @@
 
 <section id="hero" class="relative min-h-screen flex flex-col justify-center items-start px-12 py-16 max-md:px-6 max-md:py-12 overflow-hidden">
 	<!-- Background image -->
-	<div class="absolute inset-0 z-0 bg-cover bg-center bg-no-repeat opacity-25" style="background-image: url('/images/galbrena.jpg');"></div>
+	<div class="absolute inset-0 z-0 bg-cover object-fill bg-center bg-no-repeat opacity-25" style="background-image: url('/images/profile-bg.png');"></div>
 
 	<!-- Scanlines overlay -->
 	<div class="scanlines absolute inset-0 z-1 pointer-events-none"></div>
