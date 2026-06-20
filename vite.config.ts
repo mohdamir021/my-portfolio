@@ -5,7 +5,7 @@ import { defineConfig } from "vite";
 export default defineConfig({
   plugins: [tailwindcss(), sveltekit()],
   server: {
-    allowedHosts: ["y0m1r2.tail8b3259.ts.net"],
+    allowedHosts: ["app.codemiru.com"],
     port: 3000,
   },
 });
