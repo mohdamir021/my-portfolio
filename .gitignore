@@ -43,3 +43,6 @@ pnpm-debug.log*
 # Adapter outputs (if using adapter-node or adapter-vercel etc)
 .vercel/
 .netlify/
+
+# Locals
+local*
