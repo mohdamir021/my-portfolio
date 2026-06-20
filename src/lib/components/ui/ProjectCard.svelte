@@ -8,7 +8,7 @@
 			description: string;
 			stack: string[];
 			links: { github: string | null; live: string | null };
-			image: string;
+			image: string | null;
 			featured: boolean;
 			status: string;
 		};
@@ -17,13 +17,21 @@
 	const statusColor: Record<string, string> = {
 		live: 'var(--green)',
 		wip: 'var(--yellow)',
-		archived: 'var(--overlay0)'
+		archived: 'var(--overlay0)',
+		private: 'var(--mauve)'
 	};
 </script>
 
 <div class="project-card" class:featured={project.featured}>
 	<div class="card-image">
-		<img src={project.image} alt={project.title} loading="lazy" />
+		{#if project.image}
+			<img src={project.image} alt={project.title} loading="lazy" />
+		{:else}
+			<div class="image-placeholder" aria-hidden="true">
+				<span class="placeholder-prompt">~/{project.id}</span>
+				<span class="placeholder-cursor">█</span>
+			</div>
+		{/if}
 		<div class="overlay">
 			<p class="description">{project.description}</p>
 			<div class="links">
@@ -90,6 +98,29 @@
 
 	.project-card:hover .card-image img {
 		transform: scale(1.05);
+	}
+
+	/* Terminal-style fallback when a project has no screenshot */
+	.image-placeholder {
+		width: 100%;
+		height: 100%;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		gap: 0.25rem;
+		background:
+			linear-gradient(135deg, var(--mantle), var(--crust)),
+			linear-gradient(var(--accent-grid) 1px, transparent 1px),
+			linear-gradient(90deg, var(--accent-grid) 1px, transparent 1px);
+		background-size: cover, 24px 24px, 24px 24px;
+		font-family: var(--font-mono);
+		font-size: 0.95rem;
+		color: var(--teal);
+		text-shadow: var(--glow-teal);
+	}
+
+	.placeholder-cursor {
+		animation: blink 1s step-end infinite;
 	}
 
 	.overlay {

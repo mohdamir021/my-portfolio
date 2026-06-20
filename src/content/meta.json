@@ -1,13 +1,13 @@
 {
-	"site_title": "Amir — Developer",
+	"site_title": "Amir — Full Stack Developer",
 	"name": "Amir",
-	"tagline": "Software Developer",
+	"tagline": "Full Stack Developer",
 	"socials": [
-		{ "label": "GitHub", "icon": "github", "url": "https://github.com/yourhandle" },
-		{ "label": "LinkedIn", "icon": "linkedin", "url": "https://linkedin.com/in/yourhandle" }
+		{ "label": "GitHub", "icon": "github", "url": "https://github.com/mohdamir210" },
+		{ "label": "LinkedIn", "icon": "linkedin", "url": "https://linkedin.com/in/mohdamir210" }
 	],
 	"footer": {
-		"copyright": "© 2025 Amir. All rights reserved.",
+		"copyright": "© 2026 Mohammad Amir. All rights reserved.",
 		"note": "Built with SvelteKit + ☕"
 	}
 }

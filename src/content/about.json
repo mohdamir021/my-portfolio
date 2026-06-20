@@ -1,12 +1,14 @@
 {
 	"bio": [
-		"Web developer based in Malaysia, currently building SaaS at Heyjom.",
-		"I enjoy clean architecture, thoughtful UIs, and the occasional homelab rabbit hole."
+		"Computer Science graduate and full-stack developer based in Petaling Jaya, Malaysia, with 2+ years of hands-on experience building for the web.",
+		"Currently at Heyjom, where I build white-label, multi-tenant SaaS with Next.js, React, and TypeScript — backed by Laravel and Node.js (Express, Hono).",
+		"I care about clean architecture, thoughtful UIs, and the occasional homelab rabbit hole — self-hosting on Linux with Nginx, Cloudflare Tunnel, and Tailscale."
 	],
 	"fun_facts": [
-		"Likes and practice 2-hand 2 Yoyos",
-		"Daily driving Debian GNU/Linux",
-    "Bridging tech with daily life"
+		"2A yo-yo practitioner — two hands, two yo-yos 🪀",
+		"Daily-drives Debian GNU/Linux on everything 🐧",
+		"Specialized in Big Data Analytics at UiTM 🎓",
+		"Currently poking at self-hosted AI 🤖"
 	],
 	"avatar": "/images/avatar.png",
 	"resume": "/resume.pdf"
