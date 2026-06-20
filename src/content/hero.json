@@ -1,8 +1,8 @@
 {
 	"greeting": "Hello, World",
-	"name": "Mohamad Amir",
-	"title": "Software Developer",
-	"subtitle": "I build things for the web — clean, fast, and intentional.",
+	"name": "Mohammad Amir",
+	"title": "Full Stack Developer",
+	"subtitle": "Computer Science grad turned full-stack dev. I build clean, fast, multi-tenant web apps — currently shipping white-label SaaS at Heyjom.",
 	"cta": { "label": "View my work", "href": "#projects" },
 	"cta_secondary": { "label": "Get in touch", "href": "#contact" },
 	"prompt": "~/portfolio $"

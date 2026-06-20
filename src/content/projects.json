@@ -3,12 +3,32 @@
 		{
 			"id": "heyjom",
 			"title": "Heyjom Platform",
-			"description": "SaaS platform with multi-tenant architecture, OAuth branding, and custom domain routing.",
-			"stack": ["Next.js", "Laravel", "TypeScript", "MySQL"],
+			"description": "White-label sports & fitness registration platform serving 800K+ active users. Architected configurable multi-tenant Next.js apps under a feature-based structure — spinning up branded campaign sites from a single shared codebase. Drove +224% YoY user growth and a 57% engagement rate.",
+			"stack": ["Next.js", "TypeScript", "Tailwind CSS", "TanStack Query"],
 			"links": { "github": null, "live": "https://heyjom.com" },
 			"image": "/images/projects/heyjom.png",
 			"featured": true,
 			"status": "live"
+		},
+		{
+			"id": "pcari",
+			"title": "PCARI",
+			"description": "In-house product (pcari.my + admin dashboard). Built core web features with Next.js and TypeScript, focused on performance and responsiveness, working closely with UI/UX designers and backend engineers.",
+			"stack": ["Next.js", "TypeScript", "React"],
+			"links": { "github": null, "live": "https://pcari.my" },
+			"image": null,
+			"featured": false,
+			"status": "live"
+		},
+		{
+			"id": "gov-platform",
+			"title": "Government Web Platform",
+			"description": "Confidential government project. Led the initialization and front-end architecture of a secure web application — establishing the framework foundation and component structure, and coordinating with backend developers and stakeholders to deliver an integrated full-stack solution.",
+			"stack": ["Next.js", "TypeScript", "REST APIs"],
+			"links": { "github": null, "live": null },
+			"image": null,
+			"featured": false,
+			"status": "private"
 		}
 	]
 }

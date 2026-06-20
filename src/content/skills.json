@@ -4,22 +4,27 @@
 		{
 			"label": "Frontend",
 			"icon": "monitor",
-			"items": ["Next.js", "SvelteKit", "TypeScript", "Tailwind CSS", "React", "Chakra UI"]
+			"items": ["Next.js", "React", "SvelteKit", "TypeScript", "Tailwind CSS", "Chakra UI"]
 		},
 		{
 			"label": "Backend",
 			"icon": "server",
-			"items": ["Laravel", "Node.js", "Express", "REST APIs", "MySQL / MariaDB"]
+			"items": ["Laravel", "Node.js", "Express", "Hono", "REST APIs", "MySQL / MariaDB / MongoDB"]
+		},
+		{
+			"label": "Libraries & Testing",
+			"icon": "package",
+			"items": ["AuthJS", "Zustand", "Zod", "TanStack Query & Table", "Vitest", "Playwright"]
 		},
 		{
 			"label": "DevOps & Tools",
 			"icon": "terminal",
-			"items": ["Debian Linux", "nginx", "Tailscale", "Docker (basics)", "Git"]
+			"items": ["Debian / Mint Linux", "Nginx", "Cloudflare Tunnel", "Tailscale", "Docker", "Git"]
 		},
 		{
 			"label": "Currently Exploring",
 			"icon": "cpu",
-			"items": ["Linux Based Systems", "AI/LLM integration", "Socket.io", "TTS / Voice synthesis", "Homelab infra"]
+			"items": ["Self-hosted AI / LLMs", "Homelab infra", "Socket.io", "TTS / Voice synthesis"]
 		}
 	]
 }
