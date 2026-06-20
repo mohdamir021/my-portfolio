@@ -42,6 +42,9 @@
 </script>
 
 <div class="app" class:ready>
+	<!-- Fixed background: stays put while the page scrolls -->
+	<div class="bg-fixed" aria-hidden="true"></div>
+
 	<Sidebar {activeSection} />
 	<Topbar />
 
@@ -63,7 +66,21 @@
 		opacity: 1;
 	}
 
+	/* Fixed, full-viewport background image + readability overlay.
+	   Swap the image URL or gradient below to restyle the global backdrop. */
+	.bg-fixed {
+		position: fixed;
+		inset: 0;
+		z-index: 0;
+		pointer-events: none;
+		background:
+			linear-gradient(180deg, rgba(17, 17, 27, 0.78), rgba(30, 30, 46, 0.85)),
+			url('/images/profile-bg.png') center / cover no-repeat;
+	}
+
 	.main {
+		position: relative;
+		z-index: 1;
 		margin-left: 240px;
 		min-height: 100vh;
 	}

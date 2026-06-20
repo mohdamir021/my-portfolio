@@ -13,7 +13,8 @@
 	onMount(() => {
 		const observer = new IntersectionObserver(
 			([entry]) => { if (entry.isIntersecting) visible = true; },
-			{ threshold: 0.15 }
+			// Fire once ~40% of a viewport-height of the section has been revealed
+			{ threshold: 0, rootMargin: '0px 0px -40% 0px' }
 		);
 		observer.observe(sectionEl);
 		return () => observer.disconnect();
@@ -62,6 +63,11 @@
 <style>
 	.about {
 		padding: 6rem 3rem;
+		/* Translucent panel over the fixed background — tweak the rgba alpha
+		   to show more/less of the image, or swap for a color/image of your own. */
+		position: relative;
+		background: rgba(24, 24, 37, 0.55);
+		border-top: 1px solid var(--surface0);
 	}
 
 	.container {

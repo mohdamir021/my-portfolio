@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { Monitor, Server, Terminal, Cpu } from 'lucide-svelte';
+	import { Monitor, Server, Terminal, Cpu, Package } from 'lucide-svelte';
 
 	let { group }: { group: { label: string; icon: string; items: string[] } } = $props();
 
@@ -7,7 +7,8 @@
 		monitor: Monitor,
 		server: Server,
 		terminal: Terminal,
-		cpu: Cpu
+		cpu: Cpu,
+		package: Package
 	};
 
 	const IconComponent = $derived(icons[group.icon] || Terminal);

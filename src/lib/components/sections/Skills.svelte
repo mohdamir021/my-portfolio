@@ -12,7 +12,8 @@
 	onMount(() => {
 		const observer = new IntersectionObserver(
 			([entry]) => { if (entry.isIntersecting) visible = true; },
-			{ threshold: 0.1 }
+			// Fire once ~40% of a viewport-height of the section has been revealed
+			{ threshold: 0, rootMargin: '0px 0px -40% 0px' }
 		);
 		observer.observe(sectionEl);
 		return () => observer.disconnect();
@@ -37,6 +38,9 @@
 <style>
 	.skills {
 		padding: 6rem 3rem;
+		/* Lighter panel — lets more of the fixed background peek through. */
+		position: relative;
+		background: rgba(17, 17, 27, 0.40);
 	}
 
 	.container {

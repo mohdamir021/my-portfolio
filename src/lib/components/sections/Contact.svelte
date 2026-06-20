@@ -18,7 +18,8 @@
 	onMount(() => {
 		const observer = new IntersectionObserver(
 			([entry]) => { if (entry.isIntersecting) visible = true; },
-			{ threshold: 0.15 }
+			// Fire once ~40% of a viewport-height of the section has been revealed
+			{ threshold: 0, rootMargin: '0px 0px -40% 0px' }
 		);
 		observer.observe(sectionEl);
 		return () => observer.disconnect();
@@ -93,6 +94,9 @@
 <style>
 	.contact {
 		padding: 6rem 3rem;
+		/* Fades from translucent into a near-solid crust toward the footer. */
+		position: relative;
+		background: linear-gradient(180deg, rgba(17, 17, 27, 0.45), rgba(17, 17, 27, 0.88));
 	}
 
 	.container {
